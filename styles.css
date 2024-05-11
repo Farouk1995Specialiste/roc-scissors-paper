@@ -1,0 +1,101 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #02013f;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    margin: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.score{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+
+}
+.score p {
+    font-size: 25px;
+}
+.btn{
+    background: #F44336;
+    padding: 13px 27px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1rem 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+.btn-start{
+    background: #1929d7;
+    padding: 13px 27px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 1rem 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    display: none;
+}
+.choices{
+    display: flex;
+    margin: 2rem;
+    font-size: 30px;
+}
+.choices p {
+    margin: 0 1rem;
+}
+ #winner,#loose{
+    font-size: 20px;
+    border: 1px solid;
+    padding: 10px;
+    display: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+#loose{
+    font-size: 20px;
+    border: 1px solid;
+    padding: 10px;
+    display: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    background-color: rgb(201, 122, 136);
+    cursor: pointer;
+}
+#tie{
+    font-size: 20px;
+    border: 1px solid;
+    padding: 10px;
+    display: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    background-color: rgb(105, 99, 115);
+    cursor: pointer; 
+}
+#one{
+    border: 2px solid darkolivegreen;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 6px;
+    background: darkolivegreen;
+    margin: 1rem;
+    display: none;
+}
+
